@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | National Professional Association</title>
+  <meta name="description" content="Official website of the National Professional Association of Engineers & Specialists.">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Shared Header (injected by JS) -->
+  <div id="site-header"></div>
+
+  <!-- ============ HERO CAROUSEL ============ -->
+  <section class="hero-section" id="heroCarousel">
+    <div id="mainCarousel" class="carousel slide carousel-fade h-100" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100">
+          <img src="https://images.pexels.com/photos/1181738/pexels-photo-1181738.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080" class="d-block w-100 h-100" style="object-fit:cover;position:absolute;inset:0;" alt="Professionals collaborating">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="row">
+              <div class="col-lg-8">
+                <span class="category-tag mb-3 d-inline-block">Welcome to NPA</span>
+                <h1 class="hero-title mb-3">Building a Stronger Community Together</h1>
+                <p class="hero-subtitle mb-4">The National Professional Association of Engineers & Specialists represents over 5,000 members dedicated to excellence, advocacy, and collective progress since 1985.</p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <a href="members.html" class="btn btn-accent">Join Us <i class="bi bi-arrow-right ms-1"></i></a>
+                  <a href="notices.html" class="btn-outline-light-custom">Notice Board <i class="bi bi-megaphone ms-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item h-100">
+          <img src="https://images.pexels.com/photos/9275222/pexels-photo-9275222.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080" class="d-block w-100 h-100" style="object-fit:cover;position:absolute;inset:0;" alt="Annual conference">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="row">
+              <div class="col-lg-8">
+                <span class="category-tag mb-3 d-inline-block">Annual Conference 2026</span>
+                <h1 class="hero-title mb-3">Advancing Professional Excellence</h1>
+                <p class="hero-subtitle mb-4">Join us at our flagship event bringing together industry leaders, policymakers, and professionals for three days of learning and networking.</p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <a href="events.html" class="btn btn-accent">View Events <i class="bi bi-calendar-event ms-1"></i></a>
+                  <a href="about.html" class="btn-outline-light-custom">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item h-100">
+          <img src="https://images.pexels.com/photos/7792836/pexels-photo-7792836.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080" class="d-block w-100 h-100" style="object-fit:cover;position:absolute;inset:0;" alt="Team collaboration">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="row">
+              <div class="col-lg-8">
+                <span class="category-tag mb-3 d-inline-block">Digitalization Initiative</span>
+                <h1 class="hero-title mb-3">Embracing the Digital Future</h1>
+                <p class="hero-subtitle mb-4">Our Digitalization Committee is leading the transformation of our association with cutting-edge tools and modern digital infrastructure.</p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <a href="subcommittees.html" class="btn btn-accent">Explore Committees <i class="bi bi-arrow-right ms-1"></i></a>
+                  <a href="contact.html" class="btn-outline-light-custom">Get in Touch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-indicators" style="z-index:3;bottom:30px;">
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS BAR ============ -->
+  <section class="bg-gradient-navy py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-3 col-6"><div class="stat-card"><div class="stat-number" data-count="5000">5,000+</div><div class="stat-label">Active Members</div></div></div>
+        <div class="col-md-3 col-6"><div class="stat-card"><div class="stat-number">40+</div><div class="stat-label">Years of Service</div></div></div>
+        <div class="col-md-3 col-6"><div class="stat-card"><div class="stat-number">12</div><div class="stat-label">Subcommittees</div></div></div>
+        <div class="col-md-3 col-6"><div class="stat-card"><div class="stat-number">85+</div><div class="stat-label">Annual Events</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOGO TICKER ============ -->
+  <div class="logo-ticker">
+    <div class="container mb-3">
+      <p class="text-center text-uppercase mb-0" style="font-size:.75rem;color:var(--slate-gray);letter-spacing:.1em;font-weight:600;">Our Affiliations & Partners</p>
+    </div>
+    <div class="logo-ticker-track">
+      <div class="logo-ticker-item"><i class="bi bi-globe2"></i> International Council</div>
+      <div class="logo-ticker-item"><i class="bi bi-bank2"></i> Ministry of Professionals</div>
+      <div class="logo-ticker-item"><i class="bi bi-building"></i> Engineering Board</div>
+      <div class="logo-ticker-item"><i class="bi bi-mortarboard"></i> Academy of Sciences</div>
+      <div class="logo-ticker-item"><i class="bi bi-diagram-3"></i> Global Alliance</div>
+      <div class="logo-ticker-item"><i class="bi bi-people"></i> Workers Federation</div>
+      <div class="logo-ticker-item"><i class="bi bi-shield-check"></i> Standards Authority</div>
+      <div class="logo-ticker-item"><i class="bi bi-globe2"></i> International Council</div>
+      <div class="logo-ticker-item"><i class="bi bi-bank2"></i> Ministry of Professionals</div>
+      <div class="logo-ticker-item"><i class="bi bi-building"></i> Engineering Board</div>
+      <div class="logo-ticker-item"><i class="bi bi-mortarboard"></i> Academy of Sciences</div>
+      <div class="logo-ticker-item"><i class="bi bi-diagram-3"></i> Global Alliance</div>
+      <div class="logo-ticker-item"><i class="bi bi-people"></i> Workers Federation</div>
+      <div class="logo-ticker-item"><i class="bi bi-shield-check"></i> Standards Authority</div>
+    </div>
+  </div>
+
+  <!-- ============ PRESIDENT & SECRETARY MESSAGE PREVIEW ============ -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <div class="section-divider mx-auto"></div>
+        <h2 class="section-title">Leadership Messages</h2>
+        <p class="section-subtitle mb-0">Words from our esteemed leadership guiding our association forward</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-6 fade-up">
+          <div class="message-card h-100">
+            <div class="row g-0 h-100">
+              <div class="col-md-5">
+                <img src="https://images.pexels.com/photos/37605831/pexels-photo-37605831.jpeg?auto=compress&cs=tinysrgb&w=600&h=700" class="msg-photo" alt="President portrait">
+              </div>
+              <div class="col-md-7 d-flex flex-column">
+                <div class="msg-body flex-grow-1">
+                  <span class="category-tag mb-2">President's Message</span>
+                  <h4 class="mb-3">Dr. Robert M. Chen</h4>
+                  <p class="msg-quote">"Our strength lies in our unity. Together, we have built an institution that not only represents but truly serves every member with dedication and integrity."</p>
+                  <a href="president-message.html" class="btn btn-navy mt-auto">Read Full Message <i class="bi bi-arrow-right ms-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 fade-up">
+          <div class="message-card h-100">
+            <div class="row g-0 h-100">
+              <div class="col-md-5">
+                <img src="https://images.pexels.com/photos/31869537/pexels-photo-31869537.jpeg?auto=compress&cs=tinysrgb&w=600&h=700" class="msg-photo" alt="Secretary portrait">
+              </div>
+              <div class="col-md-7 d-flex flex-column">
+                <div class="msg-body flex-grow-1">
+                  <span class="category-tag mb-2">Secretary's Message</span>
+                  <h4 class="mb-3">Sarah J. Williams</h4>
+                  <p class="msg-quote">"Transparency and efficiency are the pillars of our administration. We are committed to making every process seamless for our valued members."</p>
+                  <a href="secretary-message.html" class="btn btn-navy mt-auto">Read Full Message <i class="bi bi-arrow-right ms-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMMITTEE OVERVIEW + DIGITALIZATION SPOTLIGHT ============ -->
+  <section class="section-padding bg-soft">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <div class="section-divider mx-auto"></div>
+        <h2 class="section-title">Committee Spotlight</h2>
+        <p class="section-subtitle mb-0">Dedicated teams driving our association's mission forward</p>
+      </div>
+
+      <div class="row g-4 mb-5">
+        <div class="col-md-4 fade-up">
+          <div class="card-custom h-100">
+            <div class="card-body-padding">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div style="width:50px;height:50px;background:var(--accent-blue-light);border-radius:12px;display:flex;align-items:center;justify-content:center;">
+                  <i class="bi bi-people-fill" style="font-size:1.5rem;color:var(--accent-blue);"></i>
+                </div>
+                <h5 class="mb-0">Executive Committee</h5>
+              </div>
+              <p class="text-slate-gray mb-3" style="font-size:.9rem;">The governing body responsible for strategic decisions, policy formulation, and overall direction of the association.</p>
+              <a href="executive-committee.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.9rem;">View Members <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="card-custom h-100">
+            <div class="card-body-padding">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div style="width:50px;height:50px;background:#DCFCE7;border-radius:12px;display:flex;align-items:center;justify-content:center;">
+                  <i class="bi bi-laptop-fill" style="font-size:1.5rem;color:var(--accent-green);"></i>
+                </div>
+                <h5 class="mb-0">12 Subcommittees</h5>
+              </div>
+              <p class="text-slate-gray mb-3" style="font-size:.9rem;">Specialized committees focusing on areas from digitalization to welfare, events, training, and member services.</p>
+              <a href="subcommittees.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.9rem;">Explore All <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="card-custom h-100">
+            <div class="card-body-padding">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div style="width:50px;height:50px;background:#FEF3C7;border-radius:12px;display:flex;align-items:center;justify-content:center;">
+                  <i class="bi bi-award-fill" style="font-size:1.5rem;color:var(--accent-amber);"></i>
+                </div>
+                <h5 class="mb-0">Awards Board</h5>
+              </div>
+              <p class="text-slate-gray mb-3" style="font-size:.9rem;">Recognizing excellence and outstanding contributions by members through annual awards and honors programs.</p>
+              <a href="subcommittees.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.9rem;">Learn More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Digitalization Spotlight -->
+      <div class="spotlight-card fade-up">
+        <div class="row g-0">
+          <div class="col-lg-5">
+            <img src="https://images.pexels.com/photos/7792836/pexels-photo-7792836.jpeg?auto=compress&cs=tinysrgb&w=800&h=800" class="spotlight-img" alt="Digitalization Committee">
+          </div>
+          <div class="col-lg-7 d-flex align-items-center">
+            <div class="spotlight-body">
+              <span class="category-tag mb-3 d-inline-block" style="background:#DCFCE7;color:var(--accent-green);">Featured Committee</span>
+              <h3 class="mb-3">Digitalization Committee</h3>
+              <p class="text-slate-gray mb-3">Leading our association's digital transformation with modern tools, online member portals, automated workflows, and data-driven decision making.</p>
+              <div class="row g-3 mb-4">
+                <div class="col-6">
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-check-circle-fill" style="color:var(--accent-green);"></i>
+                    <span style="font-size:.9rem;">Online Member Portal</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-check-circle-fill" style="color:var(--accent-green);"></i>
+                    <span style="font-size:.9rem;">Digital Document System</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-check-circle-fill" style="color:var(--accent-green);"></i>
+                    <span style="font-size:.9rem;">Automated Notifications</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-check-circle-fill" style="color:var(--accent-green);"></i>
+                    <span style="font-size:.9rem;">Mobile App Launch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <img src="https://images.pexels.com/photos/32844866/pexels-photo-32844866.jpeg?auto=compress&cs=tinysrgb&w=120&h=120" style="width:64px;height:64px;border-radius:50%;object-fit:cover;" alt="Committee Chair">
+                <div>
+                  <div style="font-weight:700;font-size:1rem;">Michael R. Patel</div>
+                  <div style="font-size:.85rem;color:var(--slate-gray);">Chair, Digitalization Committee</div>
+                </div>
+              </div>
+              <a href="subcommittees.html" class="btn btn-navy">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LATEST NOTICES ============ -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-end mb-5 fade-up">
+        <div>
+          <div class="section-divider"></div>
+          <h2 class="section-title mb-0">Latest Notices</h2>
+        </div>
+        <a href="notices.html" class="btn btn-navy d-none d-sm-inline-block">View All Notices</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-6 fade-up">
+          <div class="notice-item">
+            <div class="notice-date-badge"><span class="day">15</span><span class="month">Oct</span></div>
+            <div class="flex-grow-1">
+              <span class="category-tag mb-2 d-inline-block">Urgent</span>
+              <h6 class="mb-1">Annual General Meeting 2026 — Notice to All Members</h6>
+              <p class="text-slate-gray mb-2" style="font-size:.85rem;">All members are notified that the AGM 2026 will be held on November 20, 2026. Registration mandatory.</p>
+              <a href="#" class="text-decoration-none fw-semibold" style="color:var(--accent-red);font-size:.85rem;"><i class="bi bi-file-pdf-fill me-1"></i> Download Notice PDF</a>
+            </div>
+          </div>
+          <div class="notice-item">
+            <div class="notice-date-badge"><span class="day">10</span><span class="month">Oct</span></div>
+            <div class="flex-grow-1">
+              <span class="category-tag mb-2 d-inline-block">Update</span>
+              <h6 class="mb-1">Membership Renewal Period Now Open for 2026</h6>
+              <p class="text-slate-gray mb-2" style="font-size:.85rem;">Members can now renew their annual membership through the online portal. Deadline: December 31, 2026.</p>
+              <a href="#" class="text-decoration-none fw-semibold" style="color:var(--accent-red);font-size:.85rem;"><i class="bi bi-file-pdf-fill me-1"></i> Download Notice PDF</a>
+            </div>
+          </div>
+          <div class="notice-item">
+            <div class="notice-date-badge"><span class="day">05</span><span class="month">Oct</span></div>
+            <div class="flex-grow-1">
+              <span class="category-tag mb-2 d-inline-block">General</span>
+              <h6 class="mb-1">New Digital Portal Launch — Member Access Instructions</h6>
+              <p class="text-slate-gray mb-2" style="font-size:.85rem;">The new member portal is now live. All members must activate their accounts by October 30.</p>
+              <a href="#" class="text-decoration-none fw-semibold" style="color:var(--accent-red);font-size:.85rem;"><i class="bi bi-file-pdf-fill me-1"></i> Download Notice PDF</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 fade-up">
+          <div class="notice-item">
+            <div class="notice-date-badge"><span class="day">02</span><span class="month">Oct</span></div>
+            <div class="flex-grow-1">
+              <span class="category-tag mb-2 d-inline-block">Event</span>
+              <h6 class="mb-1">Professional Development Workshop Series — Registration Open</h6>
+              <p class="text-slate-gray mb-2" style="font-size:.85rem;">Six-part workshop series covering modern professional skills. Limited seats available.</p>
+              <a href="#" class="text-decoration-none fw-semibold" style="color:var(--accent-red);font-size:.85rem;"><i class="bi bi-file-pdf-fill me-1"></i> Download Notice PDF</a>
+            </div>
+          </div>
+          <div class="notice-item">
+            <div class="notice-date-badge"><span class="day">28</span><span class="month">Sep</span></div>
+            <div class="flex-grow-1">
+              <span class="category-tag mb-2 d-inline-block">Policy</span>
+              <h6 class="mb-1">Revised Code of Conduct — Effective January 2026</h6>
+              <p class="text-slate-gray mb-2" style="font-size:.85rem;">Updated code of conduct has been approved by the executive committee. All members must review.</p>
+              <a href="#" class="text-decoration-none fw-semibold" style="color:var(--accent-red);font-size:.85rem;"><i class="bi bi-file-pdf-fill me-1"></i> Download Notice PDF</a>
+            </div>
+          </div>
+          <div class="notice-item">
+            <div class="notice-date-badge"><span class="day">20</span><span class="month">Sep</span></div>
+            <div class="flex-grow-1">
+              <span class="category-tag mb-2 d-inline-block">Election</span>
+              <h6 class="mb-1">Subcommittee Election Results 2026 — Official Declaration</h6>
+              <p class="text-slate-gray mb-2" style="font-size:.85rem;">Election results for all 12 subcommittees have been officially declared and are now available.</p>
+              <a href="#" class="text-decoration-none fw-semibold" style="color:var(--accent-red);font-size:.85rem;"><i class="bi bi-file-pdf-fill me-1"></i> Download Notice PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4 d-sm-none">
+        <a href="notices.html" class="btn btn-navy">View All Notices</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RECENT NEWS & UPCOMING EVENTS ============ -->
+  <section class="section-padding bg-soft">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Recent News -->
+        <div class="col-lg-7 fade-up">
+          <div class="section-divider"></div>
+          <h2 class="section-title mb-4">Recent News</h2>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="news-card h-100">
+                <img src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=500&h=300" class="news-img" alt="News image">
+                <div class="p-3">
+                  <span class="category-tag mb-2 d-inline-block">Conference</span>
+                  <h6 class="mb-2">Record Attendance at Annual Professional Summit 2026</h6>
+                  <p class="text-slate-gray mb-2" style="font-size:.85rem;">Over 1,200 professionals attended this year's summit, making it the largest gathering in our history.</p>
+                  <a href="news.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.85rem;">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="news-card h-100">
+                <img src="https://images.pexels.com/photos/5686082/pexels-photo-5686082.jpeg?auto=compress&cs=tinysrgb&w=500&h=300" class="news-img" alt="News image">
+                <div class="p-3">
+                  <span class="category-tag mb-2 d-inline-block">Technology</span>
+                  <h6 class="mb-2">Digitalization Committee Launches New Member App</h6>
+                  <p class="text-slate-gray mb-2" style="font-size:.85rem;">The new mobile application brings all association services to your fingertips, available on iOS and Android.</p>
+                  <a href="news.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.85rem;">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="news-card h-100">
+                <img src="https://images.pexels.com/photos/8761536/pexels-photo-8761536.jpeg?auto=compress&cs=tinysrgb&w=500&h=300" class="news-img" alt="News image">
+                <div class="p-3">
+                  <span class="category-tag mb-2 d-inline-block">Training</span>
+                  <h6 class="mb-2">Professional Certification Program Graduates 150 Members</h6>
+                  <p class="text-slate-gray mb-2" style="font-size:.85rem;">The latest cohort of certified professionals received their credentials at a ceremony last week.</p>
+                  <a href="news.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.85rem;">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="news-card h-100">
+                <img src="https://images.pexels.com/photos/4343206/pexels-photo-4343206.jpeg?auto=compress&cs=tinysrgb&w=500&h=300" class="news-img" alt="News image">
+                <div class="p-3">
+                  <span class="category-tag mb-2 d-inline-block">Community</span>
+                  <h6 class="mb-2">Association Partners with Local University for Research Grant</h6>
+                  <p class="text-slate-gray mb-2" style="font-size:.85rem;">A new $500K research partnership aims to advance professional standards and innovation.</p>
+                  <a href="news.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.85rem;">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <a href="news.html" class="btn btn-navy">All News <i class="bi bi-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+
+        <!-- Upcoming Events -->
+        <div class="col-lg-5 fade-up">
+          <div class="section-divider"></div>
+          <h2 class="section-title mb-4">Upcoming Events</h2>
+          <div class="event-card mb-3">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://images.pexels.com/photos/9275222/pexels-photo-9275222.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" class="event-img" style="height:100%;min-height:140px;" alt="Event image">
+              </div>
+              <div class="col-8 p-3">
+                <div class="d-flex align-items-center gap-2 mb-1">
+                  <i class="bi bi-calendar3" style="color:var(--accent-blue);font-size:.85rem;"></i>
+                  <span style="font-size:.8rem;color:var(--slate-gray);">Nov 20, 2026</span>
+                </div>
+                <h6 class="mb-1">Annual General Meeting 2026</h6>
+                <p style="font-size:.8rem;color:var(--slate-gray);" class="mb-2">Grand Convention Center, Hall A</p>
+                <a href="events.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.8rem;">Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="event-card mb-3">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://images.pexels.com/photos/3182784/pexels-photo-3182784.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" class="event-img" style="height:100%;min-height:140px;" alt="Event image">
+              </div>
+              <div class="col-8 p-3">
+                <div class="d-flex align-items-center gap-2 mb-1">
+                  <i class="bi bi-calendar3" style="color:var(--accent-blue);font-size:.85rem;"></i>
+                  <span style="font-size:.8rem;color:var(--slate-gray);">Nov 05, 2026</span>
+                </div>
+                <h6 class="mb-1">Professional Development Workshop</h6>
+                <p style="font-size:.8rem;color:var(--slate-gray);" class="mb-2">NPA Training Center, Room 101</p>
+                <a href="events.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.8rem;">Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="event-card mb-3">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://images.pexels.com/photos/1181736/pexels-photo-1181736.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" class="event-img" style="height:100%;min-height:140px;" alt="Event image">
+              </div>
+              <div class="col-8 p-3">
+                <div class="d-flex align-items-center gap-2 mb-1">
+                  <i class="bi bi-calendar3" style="color:var(--accent-blue);font-size:.85rem;"></i>
+                  <span style="font-size:.8rem;color:var(--slate-gray);">Dec 10, 2026</span>
+                </div>
+                <h6 class="mb-1">Year-End Networking Gala</h6>
+                <p style="font-size:.8rem;color:var(--slate-gray);" class="mb-2">Riverside Hotel, Grand Ballroom</p>
+                <a href="events.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.8rem;">Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="event-card mb-3">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://images.pexels.com/photos/26202153/pexels-photo-26202153.jpeg?auto=compress&cs=tinysrgb&w=300&h=200" class="event-img" style="height:100%;min-height:140px;" alt="Event image">
+              </div>
+              <div class="col-8 p-3">
+                <div class="d-flex align-items-center gap-2 mb-1">
+                  <i class="bi bi-calendar3" style="color:var(--accent-blue);font-size:.85rem;"></i>
+                  <span style="font-size:.8rem;color:var(--slate-gray);">Jan 15, 2027</span>
+                </div>
+                <h6 class="mb-1">Annual Leadership Conference</h6>
+                <p style="font-size:.8rem;color:var(--slate-gray);" class="mb-2">International Convention Center</p>
+                <a href="events.html" class="text-decoration-none fw-semibold" style="color:var(--accent-blue);font-size:.8rem;">Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-3">
+            <a href="events.html" class="btn btn-navy w-100">All Events <i class="bi bi-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MEMBER SEARCH BAR ============ -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="text-center mb-4 fade-up">
+        <div class="section-divider mx-auto"></div>
+        <h2 class="section-title">Find a Member</h2>
+        <p class="section-subtitle mb-0">Search our directory of 5,000+ professionals</p>
+      </div>
+      <div class="search-bar-wrapper fade-up mx-auto" style="max-width:800px;">
+        <form id="home-member-search">
+          <div class="row g-3 align-items-end">
+            <div class="col-md-6">
+              <label class="form-label-custom">Search by Name, ID, or Designation</label>
+              <input type="text" class="form-control form-control-custom" placeholder="e.g., John Smith or NPA-001">
+            </div>
+            <div class="col-md-3">
+              <label class="form-label-custom">Blood Group</label>
+              <select class="form-select form-control-custom">
+                <option value="">Any</option>
+                <option>A+</option><option>A-</option>
+                <option>B+</option><option>B-</option>
+                <option>O+</option><option>O-</option>
+                <option>AB+</option><option>AB-</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <button type="submit" class="btn btn-navy w-100"><i class="bi bi-search me-1"></i> Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY PREVIEW ============ -->
+  <section class="section-padding bg-soft">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-end mb-5 fade-up">
+        <div>
+          <div class="section-divider"></div>
+          <h2 class="section-title mb-0">Photo Gallery</h2>
+        </div>
+        <a href="gallery.html" class="btn btn-navy d-none d-sm-inline-block">View Full Gallery</a>
+      </div>
+      <div class="row g-3 fade-up">
+        <div class="col-md-4 col-6">
+          <div class="gallery-item" style="aspect-ratio:4/3;">
+            <img src="https://images.pexels.com/photos/9275222/pexels-photo-9275222.jpeg?auto=compress&cs=tinysrgb&w=500&h=400" alt="Gallery image">
+            <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-6">
+          <div class="gallery-item" style="aspect-ratio:4/3;">
+            <img src="https://images.pexels.com/photos/1181738/pexels-photo-1181738.jpeg?auto=compress&cs=tinysrgb&w=500&h=400" alt="Gallery image">
+            <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-6">
+          <div class="gallery-item" style="aspect-ratio:4/3;">
+            <img src="https://images.pexels.com/photos/5686082/pexels-photo-5686082.jpeg?auto=compress&cs=tinysrgb&w=500&h=400" alt="Gallery image">
+            <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-6">
+          <div class="gallery-item" style="aspect-ratio:4/3;">
+            <img src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=500&h=400" alt="Gallery image">
+            <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-6">
+          <div class="gallery-item" style="aspect-ratio:4/3;">
+            <img src="https://images.pexels.com/photos/8761536/pexels-photo-8761536.jpeg?auto=compress&cs=tinysrgb&w=500&h=400" alt="Gallery image">
+            <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-6">
+          <div class="gallery-item" style="aspect-ratio:4/3;">
+            <img src="https://images.pexels.com/photos/11329863/pexels-photo-11329863.jpeg?auto=compress&cs=tinysrgb&w=500&h=400" alt="Gallery image">
+            <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4 d-sm-none">
+        <a href="gallery.html" class="btn btn-navy">View Full Gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EMERGENCY CONTACTS ============ -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <div class="section-divider mx-auto"></div>
+        <h2 class="section-title">Emergency Contacts</h2>
+        <p class="section-subtitle mb-0">Quick access to critical helpline numbers</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 fade-up">
+          <div class="emergency-card h-100">
+            <div class="emergency-icon"><i class="bi bi-telephone-fill"></i></div>
+            <h5 class="mb-1">General Emergency</h5>
+            <p class="text-slate-gray mb-2" style="font-size:.85rem;">24/7 Emergency Response</p>
+            <a href="tel:911" class="emergency-phone text-decoration-none">911</a>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="emergency-card h-100">
+            <div class="emergency-icon"><i class="bi bi-shield-exclamation"></i></div>
+            <h5 class="mb-1">Association Helpline</h5>
+            <p class="text-slate-gray mb-2" style="font-size:.85rem;">Member Support & Assistance</p>
+            <a href="tel:18005550111" class="emergency-phone text-decoration-none">1-800-555-0111</a>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="emergency-card h-100">
+            <div class="emergency-icon"><i class="bi bi-hospital"></i></div>
+            <h5 class="mb-1">Medical Support</h5>
+            <p class="text-slate-gray mb-2" style="font-size:.85rem;">Health & Wellness Hotline</p>
+            <a href="tel:18005550222" class="emergency-phone text-decoration-none">1-800-555-0222</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT SUMMARY + MAP ============ -->
+  <section class="section-padding bg-soft">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 fade-up">
+          <div class="section-divider"></div>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="text-slate-gray mb-4">Visit our office or reach out through any of the following channels. We're here to serve our members.</p>
+          <div class="d-flex align-items-start gap-3 mb-3">
+            <div style="width:44px;height:44px;background:var(--accent-blue-light);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <i class="bi bi-geo-alt-fill" style="color:var(--accent-blue);font-size:1.2rem;"></i>
+            </div>
+            <div>
+              <div style="font-weight:600;font-size:.95rem;">Office Address</div>
+              <div style="font-size:.9rem;color:var(--slate-gray);">123 Professional Avenue, Business District, City 10001</div>
+            </div>
+          </div>
+          <div class="d-flex align-items-start gap-3 mb-3">
+            <div style="width:44px;height:44px;background:var(--accent-blue-light);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <i class="bi bi-telephone-fill" style="color:var(--accent-blue);font-size:1.2rem;"></i>
+            </div>
+            <div>
+              <div style="font-weight:600;font-size:.95rem;">Phone</div>
+              <div style="font-size:.9rem;color:var(--slate-gray);">+1 (800) 123-4567</div>
+            </div>
+          </div>
+          <div class="d-flex align-items-start gap-3 mb-4">
+            <div style="width:44px;height:44px;background:var(--accent-blue-light);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <i class="bi bi-envelope-fill" style="color:var(--accent-blue);font-size:1.2rem;"></i>
+            </div>
+            <div>
+              <div style="font-weight:600;font-size:.95rem;">Email</div>
+              <div style="font-size:.9rem;color:var(--slate-gray);">info@npa-association.org</div>
+            </div>
+          </div>
+          <a href="contact.html" class="btn btn-navy">Contact Us <i class="bi bi-arrow-right ms-1"></i></a>
+        </div>
+        <div class="col-lg-6 fade-up">
+          <div class="map-placeholder">
+            <i class="bi bi-geo-mark"></i>
+            <p class="mb-0" style="font-weight:600;">Interactive Map</p>
+            <p style="font-size:.85rem;">123 Professional Avenue, Business District</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section-padding-sm">
+    <div class="container">
+      <div class="cta-section fade-up">
+        <h2 class="mb-3">Become a Member Today</h2>
+        <p class="mb-4">Join over 5,000 professionals in our growing community. Access exclusive resources, events, and networking opportunities.</p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+          <a href="members.html" class="btn btn-accent">Join Now <i class="bi bi-arrow-right ms-1"></i></a>
+          <a href="forms-downloads.html" class="btn-outline-light-custom">Download Forms</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shared Footer (injected by JS) -->
+  <div id="site-footer"></div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="/js/main.js"></script>
+  <script>injectLayout('index.html');</script>
+</body>
+</html>
